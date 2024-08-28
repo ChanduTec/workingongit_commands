@@ -26,5 +26,14 @@ public class GitChanges_Conttroller {
 		return msg.append(msg);
 		//Here when i was hit this url, Mulitipule times is going to print.I am not getting why it is like this
 	}
+	
+	@GetMapping(value = "mrg")
+	public String welcomeChandu( String msg) {
+		
+		System.out.println("All command should be practice");
+		
+		return "Welcome to the git commands";
+	}
 
+	
 }
