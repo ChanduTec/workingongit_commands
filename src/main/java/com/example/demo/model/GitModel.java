@@ -1,6 +1,10 @@
 package com.example.demo.model;
 
 public class GitModel {
+  private Integer id;
+  private String name;
+  private Double salary;
+
  private Integer userId;
   private String userDetails;
   private Boolean userAvialbulity;
@@ -32,5 +36,4 @@ public void setActivityUser(Boolean activityUser) {
   
   
 }
-// Generate toString as well
 }
