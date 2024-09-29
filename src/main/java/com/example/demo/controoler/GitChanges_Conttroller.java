@@ -34,6 +34,13 @@ public class GitChanges_Conttroller {
 		
 		return "Welcome to the git commands";
 	}
+	@GetMapping(value = "ing")
+	public String invitechandu( String msg) {
+		
+		System.out.println("All command should be practice");
+		
+		return "Invite to the git commands to the velagapudi chandu";
+	}
 
 	
 }
